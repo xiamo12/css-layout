@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	height: 100px;
+	text-align: center;
+	background-color: blue;
+}
+#container{
+	display: flex;/*中间弹性盒布局*/
+	flex-wrap: nowrap;/*排列不下时不换行*/
+	height: 200px;
+	text-align: center;
+	background-color: pink;
+}
+#center{
+	order: 1;/*order定义item的排列顺序，默认为0，越小越靠前。left为0，center为1，right为2*/
+	flex: 1;/*填充满剩余位置*/
+	height: 200px;
+	background-color: orange;
+}
+#left{
+	order: 0;/*order定义item的排列顺序，默认为0，越小越靠前。left为0，center为1，right为2*/
+	height: 200px;
+	width: 200px;
+	background-color: green;
+}
+#right{
+	order: 2;/*order定义item的排列顺序，默认为0，越小越靠前。left为0，center为1，right为2*/
+	height: 200px;
+	width: 200px;
+	background-color: lightblue;
+}
+#footer{
+	height: 100px;
+	text-align: center;
+	background-color: yellow;
+}

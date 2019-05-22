@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	background-color: blue;
+}
+#container{
+	position: relative;
+	text-align: center;
+	background-color: green;
+}
+#center{
+	height: 200px;
+	margin: 0 200px;
+	background-color: red
+}
+#left{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 200px;
+	width: 200px;
+	background-color: pink;
+}
+#right{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 200px;
+	width: 200px;
+	background-color: orange;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background-color: blue;
+}
